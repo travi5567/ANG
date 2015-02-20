@@ -1,0 +1,22 @@
+//COLOR VARIABLES
+$green: #33693b        ; 
+$dark-bg: #242723; 
+$white: #ffffff;
+$black: #000000;
+$grey: #363638;
+$error: #900503 !important;
+
+$base__font-size: 1em;
+
+// HELPER FUNCTIONS
+@import 'helper.scss';
+@import '_color-map.scss';
+@import '_color-generator.scss';
+@import 'mixins.scss';
+@import 'fonts.scss';
+@import '//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/foundation.min.css';
+@import '//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/normalize.min.css';
+@import '../fonts/foundation-icons/foundation-icons.css';
+@import 'style.scss';
+@import 'mq.scss';
+

@@ -1,0 +1,82 @@
+body {
+	background: $dark-bg;
+	color: $white;
+	min-height: 100%;
+	width: 100%;
+	padding: 0 0 50px 0;
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+h1 {
+	font-family: latobold;
+	font-weight: normal;
+	text-align: center;
+	font-size: 2.25em;//36px
+	color: $white;
+}
+h2 {
+	font-family: latolight;
+	font-weight: normal;
+	text-align: center;
+	font-size: 1em;//16px
+	color: $white;
+}
+p, span {
+	font-family: lato;
+	font-weight: normal;
+	font-size: 1em;//16px
+	color: $white;
+}
+.hide {
+	display: none !important;
+}
+
+.no-space {
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	background: $green;
+	border: none;
+	margin: 20px 0;
+	&:hover {
+		background: lighten($green, 5%);
+	}
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

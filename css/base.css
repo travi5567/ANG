@@ -1,0 +1,112 @@
+@import "//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/foundation.min.css";
+@import "//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.6/css/normalize.min.css";
+@import url(../fonts/foundation-icons/foundation-icons.css);
+@-webkit-keyframes bgcolor {
+  0% {
+    background-color: #ffccf2; }
+  50% {
+    background-color: #ccffcc; }
+  100% {
+    background-color: #ccffff; } }
+@-moz-keyframes bgcolor {
+  0% {
+    background-color: #ffccf2; }
+  50% {
+    background-color: #ccffcc; }
+  100% {
+    background-color: #ccffff; } }
+@-ms-keyframes bgcolor {
+  0% {
+    background-color: #ffccf2; }
+  50% {
+    background-color: #ccffcc; }
+  100% {
+    background-color: #ccffff; } }
+@keyframes bgcolor {
+  0% {
+    background-color: #ffccf2; }
+  50% {
+    background-color: #ccffcc; }
+  100% {
+    background-color: #ccffff; } }
+@font-face {
+  font-family: 'latobold';
+  src: url("../fonts/lato/Lato-Bold-webfont.eot");
+  src: url("../fonts/lato/Lato-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Bold-webfont.woff2") format("woff2"), url("../fonts/lato/Lato-Bold-webfont.woff") format("woff"), url("../fonts/lato/Lato-Bold-webfont.ttf") format("truetype"), url("../fonts/lato/Lato-Bold-webfont.svg#latobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'latolight';
+  src: url("../fonts/lato/Lato-Light-webfont.eot");
+  src: url("../fonts/lato/Lato-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Light-webfont.woff2") format("woff2"), url("../fonts/lato/Lato-Light-webfont.woff") format("woff"), url("../fonts/lato/Lato-Light-webfont.ttf") format("truetype"), url("../fonts/lato/Lato-Light-webfont.svg#latolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'lato';
+  src: url("../fonts/lato/Lato-Regular-webfont.eot");
+  src: url("../fonts/lato/Lato-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Regular-webfont.woff2") format("woff2"), url("../fonts/lato/Lato-Regular-webfont.woff") format("woff"), url("../fonts/lato/Lato-Regular-webfont.ttf") format("truetype"), url("../fonts/lato/Lato-Regular-webfont.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'aguafina';
+  src: url("../fonts/AguafinaScript/AguafinaScript-Regular-webfont.eot");
+  src: url("../fonts/AguafinaScript/AguafinaScript-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/AguafinaScript/AguafinaScript-Regular-webfont.woff2") format("woff2"), url("../fonts/AguafinaScript/AguafinaScript-Regular-webfont.woff") format("woff"), url("../fonts/AguafinaScript/AguafinaScript-Regular-webfont.ttf") format("truetype"), url("../fonts/AguafinaScript/AguafinaScript-Regular-webfont.svg#aguafina_scriptregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body {
+  background: #242723;
+  color: #ffffff;
+  min-height: 100%;
+  width: 100%;
+  padding: 0 0 50px 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5; }
+
+h1 {
+  font-family: latobold;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2.25em;
+  color: #ffffff; }
+
+h2 {
+  font-family: latolight;
+  font-weight: normal;
+  text-align: center;
+  font-size: 1em;
+  color: #ffffff; }
+
+p, span {
+  font-family: lato;
+  font-weight: normal;
+  font-size: 1em;
+  color: #ffffff; }
+
+.hide {
+  display: none !important; }
+
+.no-space {
+  margin: 0;
+  padding: 0; }
+
+.btn {
+  background: #33693b;
+  border: none;
+  margin: 20px 0; }
+  .btn:hover {
+    background: #3b7a45; }
+  .btn a {
+    display: block;
+    width: 100%;
+    height: 100%; }
+
+/* Define mobile styles */
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* min-width 1921px, xxlarge screens */
